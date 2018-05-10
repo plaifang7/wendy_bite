@@ -3,8 +3,9 @@ html{
 }
 .outer{
     border: 3px solid rgb(117, 117,117);  
-    max-width: 550px;
-    margin: 0 auto;
+    max-width: 545px;
+    margin: 20px auto;
+    padding: 10px;
 }
 body{
     background-color: rgb(68,68,68);
@@ -22,29 +23,46 @@ h1{
     border: 1px solid rgb(147,147,147);
     border-left: 0px;
     border-right: 0px;
-    margin: 10px 30px;
+    margin: 10px 30px 15px 30px;
     color: white;
+    
 
 
+}
+p{
+    line-height: 1.15;
 }
 nav{
     text-align: center;
 }
 a{
     color: rgb(90, 205,159);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 600px;
+    
     
 }
 .active{
     color: white;
     text-decoration-line: none;
+   
 }
 footer{
     text-align: center;
+    margin: 30px 0;
 }
 
 img{
     float: right;
-    padding: 3px;
+    padding: 4px;
     border: 3px solid rgb(101,101,101);
-    margin: 10px 10px;
+    margin: 5px 5px 15px 5px;
+}
+span{
+    color: rgb(156, 156, 156);
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100px;
 }
